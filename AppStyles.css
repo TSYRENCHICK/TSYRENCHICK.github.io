@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Высота всего экрана */
+}
+
+.center-container {
+  text-align: center;
+}
+@keyframes rotateHeart {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg); // Начальное состояние: не повернуто
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg); // Конечное состояние: поворот на 360 градусов (полный оборот)
+  }
+}

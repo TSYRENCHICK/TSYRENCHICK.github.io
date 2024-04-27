@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My React App</title>
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-
-    <!-- Включаем React и ReactDOM -->
-    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
     
-    <!-- Подключаем ваш скрипт app.js -->
-    <script src="src/app.js" defer></script>
-</body>
+    <!-- Подключение скриптов React -->
+    <script src="node_modules/react/umd/react.development.js"></script>
+    <script src="node_modules/react-dom/umd/react-dom.development.js"></script>
+    
+    <!-- Подключение вашего сгенерированного JavaScript-кода React-приложения -->
+    <script src="src\app.js"></script>
+  </body>
 </html>
